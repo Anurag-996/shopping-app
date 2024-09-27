@@ -1,6 +1,5 @@
 # Shopping App API
 
-
 Welcome to the Shopping App API! This Spring Boot application offers a comprehensive solution for e-commerce platforms.
 
 ## Table of Contents
@@ -35,25 +34,25 @@ To get a local copy of the project up and running, follow these simple steps:
    ```bash
    git clone https://github.com/Anurag-996/shopping-app
 
-2. Open application.properties from src/main/resources/application.properties and update username and password
+### Configuration
 
-   ```bash
+2. Open `application.properties` from `src/main/resources/application.properties` and update the username and password:
+
+   ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/shoppingApi?createTableIfNotExist=true
-   spring.datasource.username=
-   spring.datasource.password=
+   spring.datasource.username=your-username
+   spring.datasource.password=your-password
    spring.jpa.hibernate.ddl-auto=update
 
-3. Open terminal and type this command to make application executable
-   ```bash
-   mvn package
 
-  this will create jar file in target folder
+This will create a .jar file in the target folder.
 
-4. Now open terminal again from target folder and run this command to execute jar file
+4. Navigate to the target folder in the terminal and run the following command to execute the .jar file:
+
    ```bash
    java -jar your-jar-file.jar
-   ```
-   replace your-jar-file with your jar file name.
 
 
-   
+Replace your-jar-file.jar with the actual name of the .jar file generated in the target folder.
+
+
