@@ -44,6 +44,12 @@ To get a local copy of the project up and running, follow these simple steps:
    spring.datasource.password=your-password
    spring.jpa.hibernate.ddl-auto=update
 
+### Building and Running
+
+3. Open a terminal and type the following command to package the application:
+
+   ```bash
+   mvn package
 
 This will create a .jar file in the target folder.
 
@@ -51,7 +57,6 @@ This will create a .jar file in the target folder.
 
    ```bash
    java -jar your-jar-file.jar
-
 
 Replace your-jar-file.jar with the actual name of the .jar file generated in the target folder.
 
